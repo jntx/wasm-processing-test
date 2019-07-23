@@ -87,8 +87,8 @@ function inContextProcessingTest() {
 	wasmProcessor.fill(pointer, w, h);
 	console.timeEnd();
 
-	img = new ImageData(usub2, w, h);
-	ctx.putImageData(img, 0, 0);
+	let img2 = new ImageData(usub2, w, h);
+	ctx.putImageData(img2, 0, 0);
 }
 
 runWasm();
