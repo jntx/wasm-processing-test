@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>WASM Processing test</title>
+	<script type="module" src="./index.js"></script>
+	<style type="text/css">
+		:root {
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			font-size: 9pt;
+		}
+
+		body {
+			display: grid;
+			grid-gap: 0.5rem;
+			grid-template-columns: 510px 510px 1fr;
+		}
+
+		.log {
+			grid-row: span 2;
+		}
+
+		.canvas {
+			width: 500px;
+			height: 300px;
+			border: #888 solid 1px;
+			padding: 1px;
+		}
+	</style>
+</head>
+<body>
+	<div>JS</div>
+	<div>WASM</div>
+	<div class="log"></div>
+	<canvas class="canvas c1" width="500" height="300"></canvas>
+	<canvas class="canvas c2" width="500" height="300"></canvas>
+</body>
+</html>

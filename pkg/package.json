@@ -1,0 +1,15 @@
+{
+  "name": "wasm-processing-test",
+  "collaborators": [
+    "jfusari <jenner@neurotix.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "wasm_processing_test_bg.wasm",
+    "wasm_processing_test.js",
+    "wasm_processing_test.d.ts"
+  ],
+  "module": "wasm_processing_test.js",
+  "types": "wasm_processing_test.d.ts",
+  "sideEffects": "false"
+}
